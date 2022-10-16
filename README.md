@@ -276,8 +276,8 @@ BoardSetting : +==() bool
 class InAppPurchaseController
 InAppPurchaseController : -_log$ Logger
 InAppPurchaseController o-- Logger
-InAppPurchaseController : -_subscription StreamSubscription~List~PurchaseDetails~~?
-InAppPurchaseController o-- StreamSubscription~List~PurchaseDetails~~
+InAppPurchaseController : -_subscription StreamSubscriptionListPurchaseDetails~~?
+InAppPurchaseController o-- StreamSubscriptionListPurchaseDetails~~
 InAppPurchaseController : +inAppPurchaseInstance InAppPurchase
 InAppPurchaseController o-- InAppPurchase
 InAppPurchaseController : -_adRemoval AdRemovalPurchase
